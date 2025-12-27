@@ -102,7 +102,7 @@ export function useAnimation(ctxRef, canvasRef, drawMaze, mouseMarkerRef) {
 
     let segIndex = 0;
     let frame = 0;
-    const framesPerSeg = 31; // 95% slower than original: 15 * 1.95 = 29.25, rounded to 31
+    const framesPerSeg = 19; // 40% faster: 31 * 0.6 = 18.6, rounded to 19
 
     const step = () => {
       if (!ctxRef.current || !canvasRef.current) return;
@@ -160,7 +160,7 @@ export function useAnimation(ctxRef, canvasRef, drawMaze, mouseMarkerRef) {
     if (!mouseMarkerRef.current) return;
     
     setAnimating(true);
-    const frames = 91; // 95% slower than original: 45 * 1.95 = 87.75, rounded to 91
+    const frames = 55; // 40% faster: 91 * 0.6 = 54.6, rounded to 55
     let frame = 0;
     mouseMarkerRef.current.style.display = "block";
     
