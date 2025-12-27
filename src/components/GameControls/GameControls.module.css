@@ -1,0 +1,15 @@
+.topControls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topControls select,
+.topControls button {
+  font-size: 15px;
+  padding: 4px 8px;
+}
+

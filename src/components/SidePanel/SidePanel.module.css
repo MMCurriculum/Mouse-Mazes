@@ -1,0 +1,85 @@
+.sidePanel {
+  width: 320px;
+  margin-left: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.promptBox {
+  background: #fdfbf6;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  min-height: 80px;
+  font-size: 15px;
+}
+
+.feedbackBox {
+  min-height: 30px;
+  font-size: 15px;
+}
+
+.feedbackBox.correct {
+  color: #1a7a3b;
+}
+
+.feedbackBox.incorrect {
+  color: #8a6410;
+}
+
+.scoreBox {
+  font-size: 15px;
+}
+
+.inferencePanel {
+  display: block;
+  font-size: 14px;
+}
+
+.testModelBtn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #3b6ea8;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+}
+
+.testModelBtn:hover {
+  filter: brightness(1.05);
+}
+
+.logTitle {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.logBox {
+  max-height: 270px;
+  overflow-y: auto;
+  background: #fdfbf6;
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.noExitButton {
+  padding: 6px 18px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: 2px solid #555;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.noExitButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
