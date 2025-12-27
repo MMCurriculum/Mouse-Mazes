@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Mouse-Mazes/static/css/main.9bc002ee.css",
-    "main.js": "/Mouse-Mazes/static/js/main.891f4fc2.js",
+    "main.js": "/Mouse-Mazes/static/js/main.3953bb12.js",
     "index.html": "/Mouse-Mazes/index.html",
     "main.9bc002ee.css.map": "/Mouse-Mazes/static/css/main.9bc002ee.css.map",
-    "main.891f4fc2.js.map": "/Mouse-Mazes/static/js/main.891f4fc2.js.map"
+    "main.3953bb12.js.map": "/Mouse-Mazes/static/js/main.3953bb12.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc002ee.css",
-    "static/js/main.891f4fc2.js"
+    "static/js/main.3953bb12.js"
   ]
 }
