@@ -355,14 +355,6 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <div className={styles.header}>
-        <img 
-          src={(process.env.PUBLIC_URL || '.') + '/MouseInAHole.png'} 
-          alt="Mouse Mazes Logo" 
-          className={styles.logo}
-        />
-        <h1 className={styles.title}>Mouse Mazes</h1>
-      </div>
       <GameControls
         mode={mode}
         mazeType={mazeType}

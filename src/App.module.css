@@ -8,25 +8,6 @@
   min-height: 800px;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin: 10px 0;
-  width: 100%;
-  max-width: 1000px;
-  padding-left: 20px;
-}
-
-.logo {
-  height: 60px;
-  width: auto;
-}
-
-.title {
-  margin: 0;
-}
-
 .gameArea {
   width: 1000px;
   height: 720px;
